@@ -1,109 +1,119 @@
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[<img align="right" src="https://firstcontributions.herokuapp.com/badge.svg">](https://firstcontributions.herokuapp.com)
-
 # First Contributions
 
-It's hard. It's always hard the first time you do something. Especially when you are collaborating, making mistakes isn't a comfortable thing. But open source is all about collaboration & working together. We wanted to simplify the way new open-source contributors learn & contribute for the first time.
+<img align="right" width="300" src="../assets/fork.png" alt="fork this repository" />
 
-Reading articles & watching tutorials can help, but what's better than actually doing the stuff without messing up anything? This project aims at providing guidance & simplifying the way rookies make their first contribution. Remember: the more relaxed you are, the better you learn. If you are looking to make your first contribution, just follow the simple steps below. We promise you, it will be fun.
+*Read this in other languages: [英語](../README.md), [スペイン語](README.es.md), [オランダ語](README.nl.md), [ヒンディー語](README.hi.md)　[ロシア語](README.ru.md), [Greek](README.gr.md)*
 
-<img align="right" width="300" src="assets/fork.png" alt="fork this repository" />
+まだ Git をインストールしていない場合は、[ここ](https://help.github.com/articles/set-up-git/) からインストールしてください
 
-*Read this in other languages: [Myanmar Unicode](translations/README.mm_unicode.md),  [Indonesian](translations/README.id.md), [French](translations/README.fr.md), [Spanish](translations/README.es.md), [Dutch](translations/README.nl.md), [Hindi](translations/README.hi.md), [Russian](translations/README.ru.md), [Japanese](translations/README.ja.md), [Vietnamese](translations/README.vn.md), [Polish](translations/README.pl.md), [Korean](translations/README.ko.md), [German](translations/README.de.md), [Simplified Chinese](translations/README.chs.md), [Traditional Chinese](translations/README.cht.md), [Greek](translations/README.gr.md), [العربية](translations/README.ar.md), [Ukrainian](translations/README.ua.md), [Português/Brasil](translations/README.pt_br.md), [Italian](translations/README.it.md), [ภาษาไทย](translations/README.th.md) and [Galician](translations/README.gl.md).*
+## レポジトリをフォーク
 
-If you don't have git on your machine, [ install it ]( https://help.github.com/articles/set-up-git/ ).
+Fork ボタンをクリックしてこのレポジトリをフォークしてください
 
-## Fork this repository
+## レポジトリをクローン
 
-Fork this repo by clicking on the fork button on the top of this page.
-This will create a copy of this repository in your account.
+<img align="right" width="300" src="../assets/clone.png" alt="clone this repository" />
 
-## Clone the repository
+レポジトリをクローンします。Clone or Download ボタンをクリックしてクリップボードアイコンをクリックしてください。
 
-<img align="right" width="300" src="assets/clone.png" alt="clone this repository" />
-
-Now clone this repo to your machine. Click on the clone button and then click the *copy to clipboard* icon.
-
-Open a terminal and run the following git command:
+ターミナルを開いて以下のコマンドを実行してください：
 
 ```
-git clone "url you just copied"
+git clone "コピーした URL"
 ```
-where "url you just copied" (without the quote marks) is the url to this repository. See the previous steps to obtain the url.
+"コピーした URL" (ダブルクオーテーションは除いてください) をコピーしたレポジトリの URL と置き換えてください。
 
-<img align="right" width="300" src="assets/copy-to-clipboard.png" alt="copy URL to clipboard" />
+<img align="right" width="300" src="../assets/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
-For example:
+例：
 ```
-git clone https://github.com/this-is-you/first-contributions.git
+git clone https://github.com/＜あなたのユーザー名＞/first-contributions.git
 ```
-where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository in GitHub to your computer.
+'あなたのユーザー名' はご自身の GitHub ユーザー名に置き換えてください。ここでは GitHub のリポジトリの内容をあなたのコンピュータにコピーします。
 
-## Create a branch
+## ブランチを作成
 
-Change to the repository directory on your computer (if you are not already there):
+もしレポジトリのディレクトリにいなければそこまで移動してください。
 
 ```
 cd first-contributions
 ```
-Now create a branch using the `git checkout` command:
+`git checkout command`　コマンドを使用してブランチを作成します：
 ```
 git checkout -b <add-your-name>
 ```
 
-For example:
+例:
 ```
 git checkout -b add-alonzo-church
 ```
-(The name of the branch does not need to have the word *add* in it, but it's a reasonable thing to include because the purpose of this branch is to add your name to a list.)
 
-## Make necessary changes and commit those changes
+## コードを変更してその変更をコミット
 
-Now open `Contributors.md` file in a text editor, add your name to it, and then save the file. If you go to the project directory and execute the command `git status`, you'll see there are changes. Add those changes to the branch you just created using the `git add` command:
+テキストエディタで `Contributors.md` ファイルを開いてあなたの名前を追加し、ファイルを保存します。プロジェクトディレクトリに移動して `git status` を実行すると、変更があることがわかります。以下の `git add` コマンドを使ってそれらの変更を適用してください。
 ```
 git add Contributors.md
 ```
 
-Now commit those changes using the `git commit` command:
+
+以下の `git commit`コマンドを使ってこれらの変更をコミットします。
 ```
-git commit -m "Add <your-name> to Contributors list"
+git commit -m "Add <あなたの名前> to Contributors list"
 ```
-replacing `<your-name>` with your name.
+`<あなたの名前>` をご自身の名前に置き換えてください
 
-## Push changes to GitHub
+## GitHub に変更を push する
 
-Push your changes using the command `git push`:
+`git push` コマンドを使って変更を push してください
 ```
-git push origin <add-your-name>
+git push origin <ブランチ名>
 ```
-replacing `<add-your-name>` with the name of the branch you created earlier.
+`<ブランチ名>` を先程作ったブランチ名にへんこうしてください
 
-## Submit your changes for review
+## レビューのためにプルリクエストを送る
 
-If you go to your repository on GitHub, you'll see a  `Compare & pull request` button.  Click on that button.
+GitHub であなたのリポジトリに行くと、 `Compare＆pull request` ボタンが表示されます。そのボタンをクリックしてください。
 
-<img style="float: right;" src="assets/compare-and-pull.png" alt="create a pull request" />
+<img style="float: right;" src="../assets/compare-and-pull.png" alt="create a pull request" />
 
-Now submit the pull request.
+プルリクエストを作ってください：
 
-<img style="float: right;" src="assets/submit-pull.png" alt="submit pull request" />
+<img style="float: right;" src="../assets/submit-pull.png" alt="submit pull request" />
 
-Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
+## ォークしたレポジトリと元のレポジトリを同期させる
 
-### [ Additional material ](additional-material/additional-material.md)
+今、私はこのプロジェクトの master ブランチにすべての変更をマージしています。しかしあなたのフォークしたレポジトリにはどのような変更は加えられていません。あなたのフォークしたレポジトリと元のレポジトリとの変更を同期させるために、私のレポジトリのURLを「上流のリモート URL 」として追加する必要があります：
+```
+git remote add upstream https://github.com/multunus/first-contributions
+```
+これは、指定された URL にこのプロジェクトの別のバージョンが存在することを Git に伝える方法で、これを upstream と呼んでいます。変更がマージされたら、新しいバージョンのリポジトリを取得します。
+```
+git fetch upstream
+```
 
-## Tutorials Using Other Tools
 
+ここで私のフォークレポジトリ（上流のリモート）のすべての変更を取得しています。今度は、新しいリポジトリのリビジョンを master ブランチにマージする必要があります。
+```
+git rebase upstream/master
+```
+
+ここでは、取得したすべての変更を master ブランチに適用します。master ブランチを押した場合、フォークにも変更が加えられます
+```
+git push origin master
+```
+ここでは remote に移動していることに注目してください
+
+
+## その他のツールを使用したチュートリアル
 
 |<a href="github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a>|<a href="github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://www.microsoft.com/net/images/vslogo.png" width="100"></a>|<a href="gitkraken-tutorial.md"><img alt="GitKraken" src="/assets/gk-icon.png" width="100"></a>|
 |---|---|---|
-|[GitHub Desktop](github-desktop-tutorial.md)|[Visual Studio 2017](github-windows-vs2017-tutorial.md)|[GitKraken](gitkraken-tutorial.md)|
+|[GitHub Desktop](../github-desktop-tutorial.md)|[Visual Studio 2017](../github-windows-vs2017-tutorial.md)|[GitKraken](../gitkraken-tutorial.md)|
 
-## Where to go from here?
 
-You could also join our slack team in case you need any help or have any questions. [Join slack team](https://firstcontributions.herokuapp.com)
+## 次のステップ
 
-Here's some beginner level issues in popular repos that you can solve. Go ahead and go to those repos to learn more
+ここでは、人気のあるレポジトリにいくつかの初心者レベルの不具合がまとめてあります。レポジトリにアクセスして詳細を調べてみてください：
 
 |[![exercism](https://avatars2.githubusercontent.com/u/5624255?v=3&s=100)](https://github.com/exercism/exercism.io/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+patch%22)|[![fun-retro](https://avatars3.githubusercontent.com/u/15913975?v=3&s=100)](https://github.com/funretro/distributed/issues?q=is%3Aopen+is%3Aissue+label%3Abeginner-friendly)|[<img width="100" src="https://cdn.worldvectorlogo.com/logos/react.svg">](https://github.com/facebook/react/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+bug%22)|[![habitat](https://avatars1.githubusercontent.com/u/18171698?v=3&s=100)](https://github.com/habitat-sh/habitat/issues?q=is%3Aopen+is%3Aissue+label%3AEasy)|[![scikit-learn](https://avatars0.githubusercontent.com/u/365630?v=3&s=100)](https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aopen+is%3Aissue+label%3AEasy)|[<img width="100" src="https://camo.githubusercontent.com/0f302c808c8457f6460913e33aed3478124612c2/687474703a2f2f6c65696e696e67656e2e6f72672f696d672f6c65696e696e67656e2e6a7067">](https://github.com/technomancy/leiningen/issues?q=is%3Aopen+is%3Aissue+label%3ANewbie)|[<img width="100" src="https://images.plot.ly/plotly-documentation/thumbnail/numpy-logo.jpg">](https://github.com/numpy/numpy/issues?q=is%3Aopen+is%3Aissue+label%3A%22Easy+Fix%22)|[![elasticsearch](https://avatars2.githubusercontent.com/u/6764390?v=3&s=100)](https://github.com/elastic/elasticsearch/issues?q=is%3Aopen+is%3Aissue+label%3A%22low+hanging+fruit%22)|
 |---|---|---|---|---|---|---|---|
@@ -114,3 +124,4 @@ Here's some beginner level issues in popular repos that you can solve. Go ahead 
 |[ava](https://github.com/avajs/ava/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+for+beginner%22)|[freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp/issues?q=is%3Aopen+is%3Aissue+label%3Afirst-timers-only)|[webpack](https://github.com/webpack/webpack/issues?q=is%3Aopen+is%3Aissue+label%3A%22D1%3A+Easy+%28Contrib.+Difficulty%29%22)|[hoodie](https://github.com/hoodiehq/hoodie/issues?q=is%3Aopen+is%3Aissue+label%3Afirst-timers-only)|[pouchdb](https://github.com/pouchdb/pouchdb/issues?q=is%3Aopen+is%3Aissue+label%3A%22first+timers+only%22)|[neovim](https://github.com/neovim/neovim/issues?q=is%3Aopen+is%3Aissue+label%3Aentry-level)|[babel](https://github.com/babel/babel/issues?q=is%3Aopen+is%3Aissue+label%3Abeginner-friendly) |[brackets](https://github.com/adobe/brackets/labels/Starter%20bug)|
 | [![Node.js](https://avatars1.githubusercontent.com/u/9950313?v=3&s=100)](https://github.com/nodejs/node/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+contribution%22)|[<img width="100" src="https://github.com/Semantic-Org/Semantic-UI-React/raw/master/docs/app/logo.png">](https://github.com/Semantic-Org/Semantic-UI-React/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+contribution%22)|
 | [Node.js](https://github.com/nodejs/node/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+contribution%22) |[Semantic-UI-React](https://github.com/Semantic-Org/Semantic-UI-React/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+contribution%22) |
+

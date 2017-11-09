@@ -1,109 +1,158 @@
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[<img align="right" src="https://firstcontributions.herokuapp.com/badge.svg">](https://firstcontributions.herokuapp.com)
+# 첫 기여
 
-# First Contributions
+<img align="right" width="300" src="../assets/fork.png" alt="이 저장소 포크하기" />
 
-It's hard. It's always hard the first time you do something. Especially when you are collaborating, making mistakes isn't a comfortable thing. But open source is all about collaboration & working together. We wanted to simplify the way new open-source contributors learn & contribute for the first time.
+*Read this in other languages: [English](../README.md), [Spanish](README.es.md),
+[Dutch](README.nl.md), [Hindi](README.hi.md), [Russian](README.ru.md),
+[Japanese](README.ja.md), [Vietnamese](README.vn.md), [Polish](README.pl.md),
+[Korean](README.ko.md), [Greek](README.gr.md).*
 
-Reading articles & watching tutorials can help, but what's better than actually doing the stuff without messing up anything? This project aims at providing guidance & simplifying the way rookies make their first contribution. Remember: the more relaxed you are, the better you learn. If you are looking to make your first contribution, just follow the simple steps below. We promise you, it will be fun.
+지금 Git 이 없으면 [설치](https://help.github.com/articles/set-up-git/)하세요.
 
-<img align="right" width="300" src="assets/fork.png" alt="fork this repository" />
+## 저장소 포크하기
 
-*Read this in other languages: [Myanmar Unicode](translations/README.mm_unicode.md),  [Indonesian](translations/README.id.md), [French](translations/README.fr.md), [Spanish](translations/README.es.md), [Dutch](translations/README.nl.md), [Hindi](translations/README.hi.md), [Russian](translations/README.ru.md), [Japanese](translations/README.ja.md), [Vietnamese](translations/README.vn.md), [Polish](translations/README.pl.md), [Korean](translations/README.ko.md), [German](translations/README.de.md), [Simplified Chinese](translations/README.chs.md), [Traditional Chinese](translations/README.cht.md), [Greek](translations/README.gr.md), [العربية](translations/README.ar.md), [Ukrainian](translations/README.ua.md), [Português/Brasil](translations/README.pt_br.md), [Italian](translations/README.it.md), [ภาษาไทย](translations/README.th.md) and [Galician](translations/README.gl.md).*
+포크 버튼을 클릭하여 이 저장소를 포크하세요.
 
-If you don't have git on your machine, [ install it ]( https://help.github.com/articles/set-up-git/ ).
+## 저장소 복제하기
 
-## Fork this repository
+<img align="right" width="300" src="../assets/clone.png" alt="이 저장소 복제하기"
+/>
 
-Fork this repo by clicking on the fork button on the top of this page.
-This will create a copy of this repository in your account.
+이제 이 저장소를 자신의 기기에 복제합니다. 복제 버튼을 클릭하고 클립보드로 복사
+아이콘을 클릭합니다.
 
-## Clone the repository
-
-<img align="right" width="300" src="assets/clone.png" alt="clone this repository" />
-
-Now clone this repo to your machine. Click on the clone button and then click the *copy to clipboard* icon.
-
-Open a terminal and run the following git command:
+터미널을 열고 다음 Git 명령을 실행합니다:
 
 ```
-git clone "url you just copied"
+git clone "방금 복사한 주소"
 ```
-where "url you just copied" (without the quote marks) is the url to this repository. See the previous steps to obtain the url.
 
-<img align="right" width="300" src="assets/copy-to-clipboard.png" alt="copy URL to clipboard" />
+(따옴표를 제외한) "방금 복사한 주소"는 이 저장소의 주소입니다. 주소를 얻으려면
+이전 단계를 참조하세요.
 
-For example:
+<img align="right" width="300" src="../assets/copy-to-clipboard.png" alt="URL 을
+클립보드로 복사" />
+
+예시:
+
 ```
 git clone https://github.com/this-is-you/first-contributions.git
 ```
-where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository in GitHub to your computer.
 
-## Create a branch
+'this-is-you' 는 당신의 깃허브 계정입니다. 여기서 깃허브에 있는
+first-contributions 저장소의 내용을 컴퓨터에 복사합니다.
 
-Change to the repository directory on your computer (if you are not already there):
+## 브랜치 생성하기
+
+아직 저장소 디렉토리에 있지 않다면 그곳으로 변경합니다.
 
 ```
 cd first-contributions
 ```
-Now create a branch using the `git checkout` command:
+
+이제 `git checkout` 명령을 사용하여 브랜치를 생성합니다.
+
 ```
 git checkout -b <add-your-name>
 ```
 
-For example:
+예시:
+
 ```
 git checkout -b add-alonzo-church
 ```
-(The name of the branch does not need to have the word *add* in it, but it's a reasonable thing to include because the purpose of this branch is to add your name to a list.)
 
-## Make necessary changes and commit those changes
+## 필요한 변경사항을 작성하고 커밋하기
 
-Now open `Contributors.md` file in a text editor, add your name to it, and then save the file. If you go to the project directory and execute the command `git status`, you'll see there are changes. Add those changes to the branch you just created using the `git add` command:
+이제 텍스트 편집기에서 `Contributors.md` 파일을 열고 당신의 이름을 추가하고
+저장합니다. 프로젝트 디렉토리에서 `git status` 명령을 실행하면 변경사항을 볼 수
+있습니다. 변경사항을 아래 `git add` 명령으로 추가합니다.
+
 ```
 git add Contributors.md
 ```
 
-Now commit those changes using the `git commit` command:
+이제 아래 `git commit` 명령으로 변경사항을 커밋합니다.
+
 ```
 git commit -m "Add <your-name> to Contributors list"
 ```
-replacing `<your-name>` with your name.
 
-## Push changes to GitHub
+`<your-name>` 을 당신의 이름으로 바꾸세요.
 
-Push your changes using the command `git push`:
+## 변경사항을 깃허브에 푸시하기
+
+`git push` 명령으로 변경사항을 푸시합니다.
+
 ```
 git push origin <add-your-name>
 ```
-replacing `<add-your-name>` with the name of the branch you created earlier.
 
-## Submit your changes for review
+`<add-your-name>` 을 이전에 생성한 브랜치 이름으로 바꾸세요.
 
-If you go to your repository on GitHub, you'll see a  `Compare & pull request` button.  Click on that button.
+## 검토를 위해 변경사항을 제출하기
 
-<img style="float: right;" src="assets/compare-and-pull.png" alt="create a pull request" />
+깃허브의 당신의 저장소에 가면, `Compare & pull request` 버튼을 볼 수 있습니다.
+그 버튼을 클릭하세요.
 
-Now submit the pull request.
+<img style="float: right;" src="../assets/compare-and-pull.png" alt="풀 요청
+생성하기" />
 
-<img style="float: right;" src="assets/submit-pull.png" alt="submit pull request" />
+이제 풀 요청을 제출합니다.
 
-Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
+<img style="float: right;" src="../assets/submit-pull.png" alt="풀 요청 제출하기"
+/>
 
-### [ Additional material ](additional-material/additional-material.md)
+이제 여러분의 변경사항을 제가 확인 후에  마스터 브랜치에 머지하게되면 알림메일을 받으실 수 있습니다.
 
-## Tutorials Using Other Tools
+## 포크한 저장소와 이 저장소 동기화하기
 
+이제 나는 이 프로젝트의 마스터 브랜치에 모든 변경사항을 병합할 것 입니다. 당신의
+포크는 그러한 변경사항을 가지고 있지 않습니다. 당신의 포크를 나의 것과 동기화
+하기 위해서, 내 저장소의 주소를 `upstream remote url` 로 추가하세요.
+
+```
+git remote add upstream https://github.com/multunus/first-contributions
+```
+
+이것은 명시된 주소에 이 프로젝트의 또 다른 버전이 존재한다는 점을 Git 에
+알려줍니다. 우리는 이것을 업스트림이라고 부릅니다. 변경사항이 병합되면 내
+저장소의 새 버전을 가지고 오세요.
+
+```
+git fetch upstream
+```
+
+이거로 내 저장소(업스트림 원격)의 모든 변경사항을 가지고 옵니다. 이제, 내
+저장소의 새 개정판을 당신의 마스터 브랜치에 병합해야 합니다.
+
+```
+git rebase upstream/master
+```
+
+여기서 당신이 가져온 모든 변경사항을 마스터 브랜치에 적용됩니다. 마스터 브랜치를
+푸시하면, 당신의 포크도 역시 변경사항을 가질 것 입니다.
+
+```
+git push origin master
+```
+
+origin 이라 명명된 원격으로 푸시하고 있는 것에 주목하세요.
+
+
+### [ 추가 정보 ](additional-material/additional-material.ko.md)
+
+## 자습서 다른 도구 사용
 
 |<a href="github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a>|<a href="github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://www.microsoft.com/net/images/vslogo.png" width="100"></a>|<a href="gitkraken-tutorial.md"><img alt="GitKraken" src="/assets/gk-icon.png" width="100"></a>|
 |---|---|---|
-|[GitHub Desktop](github-desktop-tutorial.md)|[Visual Studio 2017](github-windows-vs2017-tutorial.md)|[GitKraken](gitkraken-tutorial.md)|
+|[GitHub Desktop](../github-desktop-tutorial.md)|[Visual Studio 2017](../github-windows-vs2017-tutorial.md)|[GitKraken](../gitkraken-tutorial.md)|
 
-## Where to go from here?
 
-You could also join our slack team in case you need any help or have any questions. [Join slack team](https://firstcontributions.herokuapp.com)
+## 이제 어디로 가나요?
 
-Here's some beginner level issues in popular repos that you can solve. Go ahead and go to those repos to learn more
+이곳의 인기있는 저장소에 당신이 해결할 수 있는 초보자 수준의 문제들이 있습니다.
+더 자세히 알아보기 위해 해당 저장소를 방문해보세요.
 
 |[![exercism](https://avatars2.githubusercontent.com/u/5624255?v=3&s=100)](https://github.com/exercism/exercism.io/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+patch%22)|[![fun-retro](https://avatars3.githubusercontent.com/u/15913975?v=3&s=100)](https://github.com/funretro/distributed/issues?q=is%3Aopen+is%3Aissue+label%3Abeginner-friendly)|[<img width="100" src="https://cdn.worldvectorlogo.com/logos/react.svg">](https://github.com/facebook/react/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+bug%22)|[![habitat](https://avatars1.githubusercontent.com/u/18171698?v=3&s=100)](https://github.com/habitat-sh/habitat/issues?q=is%3Aopen+is%3Aissue+label%3AEasy)|[![scikit-learn](https://avatars0.githubusercontent.com/u/365630?v=3&s=100)](https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aopen+is%3Aissue+label%3AEasy)|[<img width="100" src="https://camo.githubusercontent.com/0f302c808c8457f6460913e33aed3478124612c2/687474703a2f2f6c65696e696e67656e2e6f72672f696d672f6c65696e696e67656e2e6a7067">](https://github.com/technomancy/leiningen/issues?q=is%3Aopen+is%3Aissue+label%3ANewbie)|[<img width="100" src="https://images.plot.ly/plotly-documentation/thumbnail/numpy-logo.jpg">](https://github.com/numpy/numpy/issues?q=is%3Aopen+is%3Aissue+label%3A%22Easy+Fix%22)|[![elasticsearch](https://avatars2.githubusercontent.com/u/6764390?v=3&s=100)](https://github.com/elastic/elasticsearch/issues?q=is%3Aopen+is%3Aissue+label%3A%22low+hanging+fruit%22)|
 |---|---|---|---|---|---|---|---|

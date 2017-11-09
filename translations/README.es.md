@@ -1,109 +1,136 @@
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+﻿[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [<img align="right" src="https://firstcontributions.herokuapp.com/badge.svg">](https://firstcontributions.herokuapp.com)
 
-# First Contributions
+# Primeras Contribuciones
 
-It's hard. It's always hard the first time you do something. Especially when you are collaborating, making mistakes isn't a comfortable thing. But open source is all about collaboration & working together. We wanted to simplify the way new open-source contributors learn & contribute for the first time.
+Siempre resulta difícil cuando se comienza a hacer algo por primera vez.Principalmente cuando trabajas o colaboras con varias personas, pues equivocarse no es nada agradable.
+Sin embargo el "open source" o código abierto nos ofrece la posibilidad de trabajar en equipo.Asi que nuestro objetivo es simplificar la forma en la que los nuevos contribuidores "open source" aprenden y contribuyen por primera vez.
 
-Reading articles & watching tutorials can help, but what's better than actually doing the stuff without messing up anything? This project aims at providing guidance & simplifying the way rookies make their first contribution. Remember: the more relaxed you are, the better you learn. If you are looking to make your first contribution, just follow the simple steps below. We promise you, it will be fun.
+Leer artículos y ver tutoriales nos sirve de gran ayuda,pero siempre es mejor evitar la mayor cantidad de errores.
+Este proyecto se enfoca en ser una guía y en simplificar la forma en la que los novatos hacen su primera contribución.Recuerda que mientras más relajado estés, aprenderás mejor. Si quieres hacer tu primera contribución sólo sigue los sencillos pasos que se muestran a continuación. Te lo prometemos,será entretenido. 
 
-<img align="right" width="300" src="assets/fork.png" alt="fork this repository" />
+<img align="right" width="300" src="../assets/fork.png" alt="fork de éste repositorio" />
 
-*Read this in other languages: [Myanmar Unicode](translations/README.mm_unicode.md),  [Indonesian](translations/README.id.md), [French](translations/README.fr.md), [Spanish](translations/README.es.md), [Dutch](translations/README.nl.md), [Hindi](translations/README.hi.md), [Russian](translations/README.ru.md), [Japanese](translations/README.ja.md), [Vietnamese](translations/README.vn.md), [Polish](translations/README.pl.md), [Korean](translations/README.ko.md), [German](translations/README.de.md), [Simplified Chinese](translations/README.chs.md), [Traditional Chinese](translations/README.cht.md), [Greek](translations/README.gr.md), [العربية](translations/README.ar.md), [Ukrainian](translations/README.ua.md), [Português/Brasil](translations/README.pt_br.md), [Italian](translations/README.it.md), [ภาษาไทย](translations/README.th.md) and [Galician](translations/README.gl.md).*
+Si no tienes git en tu máquina, [ instálalo ]( https://help.github.com/articles/set-up-git/ )
 
-If you don't have git on your machine, [ install it ]( https://help.github.com/articles/set-up-git/ ).
+## Bifurca(*Fork*) este repositorio
 
-## Fork this repository
+Haz *fork* de este repo haciendo click en el botón "Fork" que está arriba de esta página.
+Esto creará una copia de este repositorio en tu cuenta.
 
-Fork this repo by clicking on the fork button on the top of this page.
-This will create a copy of this repository in your account.
+## Clona(*Clone*) el repositorio
 
-## Clone the repository
+<img align="right" width="300" src="../assets/clone.png" alt="clonar este repositorio" />
 
-<img align="right" width="300" src="assets/clone.png" alt="clone this repository" />
+Ahora clona este repo en tu equipo. Haz click en el botón "*Clone*" y luego haz click en el ícono para copiar al portapapeles(clipboard)
 
-Now clone this repo to your machine. Click on the clone button and then click the *copy to clipboard* icon.
-
-Open a terminal and run the following git command:
+Abre tu consola o terminal y ejecuta el siguiente comando de git:
 
 ```
-git clone "url you just copied"
+git clone "url que copiaste"
 ```
-where "url you just copied" (without the quote marks) is the url to this repository. See the previous steps to obtain the url.
+Donde "url que copiaste" (sin las comillas) es la url a este repositorio. Mire los pasos previos para obtener la url.
 
-<img align="right" width="300" src="assets/copy-to-clipboard.png" alt="copy URL to clipboard" />
+<img align="right" width="300" src="../assets/copy-to-clipboard.png" alt="copiar URL a clipboard" />
 
-For example:
+Por ejemplo:
 ```
-git clone https://github.com/this-is-you/first-contributions.git
+git clone https://github.com/éste-eres-tu/first-contributions.git
 ```
-where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository in GitHub to your computer.
+Donde "éste-eres-tu" es tu usuario de GitHub. Aquí estás copiando los contenidos del repositorio first-contributions en GitHub a tu computador
 
-## Create a branch
+## Crear una rama(*Branch*)
 
-Change to the repository directory on your computer (if you are not already there):
+Cambia al directorio del repositorio en tu computador si es que no estás ahí.
 
 ```
 cd first-contributions
 ```
-Now create a branch using the `git checkout` command:
+
+Ahora crea una branch usando `git checkout command`
+
 ```
-git checkout -b <add-your-name>
+git checkout -b <añade tu nombre>
 ```
 
-For example:
+Por ejemplo
 ```
 git checkout -b add-alonzo-church
 ```
-(The name of the branch does not need to have the word *add* in it, but it's a reasonable thing to include because the purpose of this branch is to add your name to a list.)
 
-## Make necessary changes and commit those changes
+## Hacer los cambios necesarios y confirmar(*Commit*) esos cambios
 
-Now open `Contributors.md` file in a text editor, add your name to it, and then save the file. If you go to the project directory and execute the command `git status`, you'll see there are changes. Add those changes to the branch you just created using the `git add` command:
+Ahora abre el archivo `Contributors.md` en un editor de texto y añade tu nombre, luego guarda el archivo. Si vas al directorio del proyecto y haces `git status`, verás que hay cambios. Agrega esos cambios usando el comando `git add` que está abajo.
 ```
 git add Contributors.md
 ```
 
-Now commit those changes using the `git commit` command:
+Ahora puedes hacer commit sobre los cambios con el comando `git commit`
 ```
-git commit -m "Add <your-name> to Contributors list"
+git commit -m "Add <tu-nombre> to Contributors list"
 ```
-replacing `<your-name>` with your name.
+cambia `<tu-nombre>` con tu nombre
 
-## Push changes to GitHub
+## Manda(*Push*) tus cambios a GitHub
 
-Push your changes using the command `git push`:
+Haz *push* de tus cambios usando el comando `git push`
 ```
-git push origin <add-your-name>
+git push origin <añade-tu-nombre>
 ```
-replacing `<add-your-name>` with the name of the branch you created earlier.
+Cambia `<añade-tu-nombre>` con el nombre de la branch que creaste antes
 
-## Submit your changes for review
+## Enviar(*Submit*) tus cambios para ser revisados
 
-If you go to your repository on GitHub, you'll see a  `Compare & pull request` button.  Click on that button.
+Si vas a tu repositorio en GitHub, verás un botón `Compare & pull request`. Haz click sobre este botón.
 
-<img style="float: right;" src="assets/compare-and-pull.png" alt="create a pull request" />
+<img style="float: right;" src="../assets/compare-and-pull.png" alt="crea una pull request" />
 
-Now submit the pull request.
+Ahora crea la pull request
 
-<img style="float: right;" src="assets/submit-pull.png" alt="submit pull request" />
+<img style="float: right;" src="../assets/submit-pull.png" alt="sube la pull request" />
 
-Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
+Ahora yo estaré fusionando tus cambios (haciendo *merge*) en la master branch de este proyecto. Recibirás una notificación por correo cuando los cambios hayan sido fusionados.
 
-### [ Additional material ](additional-material/additional-material.md)
+La master branch de tu fork no tendrá esos cambios. Para mantener tu fork sincronizado con el mío, sigue los siguientes pasos.
 
-## Tutorials Using Other Tools
+### Manteniendo tu fork sincronizado con éste repositorio
+
+Primero, cambia a la master branch
+```
+git checkout master
+```
+
+Luego, agrega la url de mi repo como `upstream remote url`
+```
+git remote add upstream https://github.com/Roshanjossey/first-contributions
+```
+Esta es una forma de decirle a git que otra versión de este proyecto existe en la url especificada y que la llamaremos upstream. Una vez que los cambios sean agregados (cuando hice *merge*), recupera la nueva versión de mi repositorio.
+```
+git fetch upstream
+```
+
+Aquí estamos trayendo todos los cambios en mi fork (upstream remote). Ahora, necesitas agregar la nueva revisión de mi repositorio en tu master branch (harás *merge*)
+```
+git rebase upstream/master
+```
+Aquí estarás aplicando todos los cambios que recuperaste a la master branch. Si haces push de la master branch ahora, tu fork también tendrá los cambios
+```
+git push origin master
+```
+Notarás aquí que estás empujando(push) a la url remota llamada origin.
+
+## Tutoriales con otras herramientas
 
 
-|<a href="github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a>|<a href="github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://www.microsoft.com/net/images/vslogo.png" width="100"></a>|<a href="gitkraken-tutorial.md"><img alt="GitKraken" src="/assets/gk-icon.png" width="100"></a>|
+|<a href="github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a>|<a href="github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://www.microsoft.com/net/images/vslogo.png" width="100"></a>|<a href="gitkraken-tutorial.md"><img alt="GitKraken" src="/../assets/gk-icon.png" width="100"></a>|
 |---|---|---|
-|[GitHub Desktop](github-desktop-tutorial.md)|[Visual Studio 2017](github-windows-vs2017-tutorial.md)|[GitKraken](gitkraken-tutorial.md)|
+|[GitHub Desktop](../github-desktop-tutorial.md)|[Visual Studio 2017](../github-windows-vs2017-tutorial.md)|[GitKraken](../gitkraken-tutorial.md)|
 
-## Where to go from here?
+## A dónde ir desde aquí?
 
-You could also join our slack team in case you need any help or have any questions. [Join slack team](https://firstcontributions.herokuapp.com)
+También podrías unirte a nuestro *equipo* Slack en caso de que necesites alguna ayuda o tengas alguna pregunta. [Únete a nuestro Slack](https://firstcontributions.herokuapp.com)
 
-Here's some beginner level issues in popular repos that you can solve. Go ahead and go to those repos to learn more
+Aquí hay algunas *issues* para principiantes en repositorios populares que podrías resolver. Anímate y ve a esos repos para aprender más
 
 |[![exercism](https://avatars2.githubusercontent.com/u/5624255?v=3&s=100)](https://github.com/exercism/exercism.io/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+patch%22)|[![fun-retro](https://avatars3.githubusercontent.com/u/15913975?v=3&s=100)](https://github.com/funretro/distributed/issues?q=is%3Aopen+is%3Aissue+label%3Abeginner-friendly)|[<img width="100" src="https://cdn.worldvectorlogo.com/logos/react.svg">](https://github.com/facebook/react/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+bug%22)|[![habitat](https://avatars1.githubusercontent.com/u/18171698?v=3&s=100)](https://github.com/habitat-sh/habitat/issues?q=is%3Aopen+is%3Aissue+label%3AEasy)|[![scikit-learn](https://avatars0.githubusercontent.com/u/365630?v=3&s=100)](https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aopen+is%3Aissue+label%3AEasy)|[<img width="100" src="https://camo.githubusercontent.com/0f302c808c8457f6460913e33aed3478124612c2/687474703a2f2f6c65696e696e67656e2e6f72672f696d672f6c65696e696e67656e2e6a7067">](https://github.com/technomancy/leiningen/issues?q=is%3Aopen+is%3Aissue+label%3ANewbie)|[<img width="100" src="https://images.plot.ly/plotly-documentation/thumbnail/numpy-logo.jpg">](https://github.com/numpy/numpy/issues?q=is%3Aopen+is%3Aissue+label%3A%22Easy+Fix%22)|[![elasticsearch](https://avatars2.githubusercontent.com/u/6764390?v=3&s=100)](https://github.com/elastic/elasticsearch/issues?q=is%3Aopen+is%3Aissue+label%3A%22low+hanging+fruit%22)|
 |---|---|---|---|---|---|---|---|

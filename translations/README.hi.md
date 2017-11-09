@@ -1,109 +1,137 @@
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
-[<img align="right" src="https://firstcontributions.herokuapp.com/badge.svg">](https://firstcontributions.herokuapp.com)
+# प्रथम योगदान
 
-# First Contributions
+<img align="right" width="300" src="../assets/fork.png" alt="fork this repository" />
 
-It's hard. It's always hard the first time you do something. Especially when you are collaborating, making mistakes isn't a comfortable thing. But open source is all about collaboration & working together. We wanted to simplify the way new open-source contributors learn & contribute for the first time.
+अन्य भाषाओं में इस पढ़ें: [अंग्रेजी](../README.md), [स्पेन](README.es.md), [डच](README.nl.md), [हिंदी](README.hi.md) [जापानी](README.ja.md) [रूसी](README.ru.md)
 
-Reading articles & watching tutorials can help, but what's better than actually doing the stuff without messing up anything? This project aims at providing guidance & simplifying the way rookies make their first contribution. Remember: the more relaxed you are, the better you learn. If you are looking to make your first contribution, just follow the simple steps below. We promise you, it will be fun.
+कठिन होता है| पहली बार कुछ करना हमेशा कठिन होता है| ख़ास तौर पर जब आप सहयोग और गलतियां करना आरामदायक नहीं होता । परन्तु ओपन सोर्स सहयोग के बारे में है ।
 
-<img align="right" width="300" src="assets/fork.png" alt="fork this repository" />
+अगर आपके मशीन पर Git नहीं है तो, [इसे स्थापित करें](https://help.github.com/articles/set-up-git/)
 
-*Read this in other languages: [Myanmar Unicode](translations/README.mm_unicode.md),  [Indonesian](translations/README.id.md), [French](translations/README.fr.md), [Spanish](translations/README.es.md), [Dutch](translations/README.nl.md), [Hindi](translations/README.hi.md), [Russian](translations/README.ru.md), [Japanese](translations/README.ja.md), [Vietnamese](translations/README.vn.md), [Polish](translations/README.pl.md), [Korean](translations/README.ko.md), [German](translations/README.de.md), [Simplified Chinese](translations/README.chs.md), [Traditional Chinese](translations/README.cht.md), [Greek](translations/README.gr.md), [العربية](translations/README.ar.md), [Ukrainian](translations/README.ua.md), [Português/Brasil](translations/README.pt_br.md), [Italian](translations/README.it.md), [ภาษาไทย](translations/README.th.md) and [Galician](translations/README.gl.md).*
+## कांट इस भंडार
 
-If you don't have git on your machine, [ install it ]( https://help.github.com/articles/set-up-git/ ).
+कांटा बटन पर क्लिक करके इस रेपो कांटा
 
-## Fork this repository
+## रिपोजिटरी क्लोन
 
-Fork this repo by clicking on the fork button on the top of this page.
-This will create a copy of this repository in your account.
+<img align="right" width="300" src="../assets/clone.png" alt="clone this repository" />
 
-## Clone the repository
+अब आप अपने मशीन को यह रेपो क्लोन। क्लोन बटन पर क्लिक करें और फिर कॉपी आइकन क्लिपबोर्ड
 
-<img align="right" width="300" src="assets/clone.png" alt="clone this repository" />
-
-Now clone this repo to your machine. Click on the clone button and then click the *copy to clipboard* icon.
-
-Open a terminal and run the following git command:
+एक टर्मिनल खोलें और निम्न git आदेश चलाएँ:
 
 ```
-git clone "url you just copied"
+git clone "यूआरएल का नकल "
 ```
-where "url you just copied" (without the quote marks) is the url to this repository. See the previous steps to obtain the url.
 
-<img align="right" width="300" src="assets/copy-to-clipboard.png" alt="copy URL to clipboard" />
+कहाँ "यूआरएल का नकल" (उद्धरण चिह्नों के बिना) इस भंडार के लिए यूआरएल  है। यूआरएल प्राप्त करने के लिए पिछले चरण देखें।
 
-For example:
+उदाहरण के लिए:
+
 ```
-git clone https://github.com/this-is-you/first-contributions.git
+git clone https://github.com/यह तुम हो/first-contributions.git
 ```
-where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository in GitHub to your computer.
 
-## Create a branch
+<img align="right" width="300" src="../assets/copy-to-clipboard.png" alt="copy URL to clipboard" />
 
-Change to the repository directory on your computer (if you are not already there):
+' यह तुम हो 'अपने GitHub उपयोगकर्ता नाम है। यहाँ आप अपने कंप्यूटर के लिए GitHub में पहली योगदान भंडार की सामग्री नकल कर रहे हैं
+
+## एक शाखा बनाएं
+
+आपके कंप्यूटर पर रिपोजिटरी निर्देशिका के लिए परिवर्तित करें अगर आप पहले से ही वहाँ नहीं कर रहे हैं।
 
 ```
 cd first-contributions
 ```
-Now create a branch using the `git checkout` command:
+
+अब एक शाखा  बना  `git checkout command` उपयोग करके
+
 ```
-git checkout -b <add-your-name>
+git checkout -b <अपना नाम जोड़>
 ```
 
-For example:
+उदाहरण के लिए:
+
 ```
 git checkout -b add-alonzo-church
 ```
-(The name of the branch does not need to have the word *add* in it, but it's a reasonable thing to include because the purpose of this branch is to add your name to a list.)
 
-## Make necessary changes and commit those changes
+## आवश्यक परिवर्तन करें और उन परिवर्तनों के लिए प्रतिबद्ध
 
-Now open `Contributors.md` file in a text editor, add your name to it, and then save the file. If you go to the project directory and execute the command `git status`, you'll see there are changes. Add those changes to the branch you just created using the `git add` command:
+अब खुले `Contributors.md` फ़ाइल एक पाठ संपादक में और इसे आपके नाम जोड़, और फ़ाइल सहेजें। आप अगर इस परियोजना निर्देशिका कर और `git status` करते हैं, तो आप परिवर्तन देखेंगे। उन परिवर्तनों को नीचे `git add` commad का उपयोग कर जोड़ें।
+
 ```
 git add Contributors.md
 ```
 
-Now commit those changes using the `git commit` command:
+अब नीचे `git commit` आदेश का उपयोग उन परिवर्तनों को प्रतिबद्ध है।
+
 ```
-git commit -m "Add <your-name> to Contributors list"
+git commit -m "Add <आपका-नाम> to Contributors list"
 ```
-replacing `<your-name>` with your name.
 
-## Push changes to GitHub
+आपके नाम के साथ `<आपका-नाम>` की जगह
 
-Push your changes using the command `git push`:
+## GitHub में परिवर्तन पुश
+
+`git push` का उपयोग कर अपने परिवर्तन धक्का
+
 ```
-git push origin <add-your-name>
+git push origin <अपना नाम जोड़>
 ```
-replacing `<add-your-name>` with the name of the branch you created earlier.
 
-## Submit your changes for review
+बदलें `<अपना नाम जोड़>` शाखा आपने पहले बनाया के नाम के साथ
 
-If you go to your repository on GitHub, you'll see a  `Compare & pull request` button.  Click on that button.
+## समीक्षा के लिए अपने परिवर्तनों को जमा करें
 
-<img style="float: right;" src="assets/compare-and-pull.png" alt="create a pull request" />
+आप GitHub पर अपने भंडार के लिए जाना है, तो आप देख `Compare & pull request` बटन खींच लेंगे। उस बटन पर क्लिक करें।
 
-Now submit the pull request.
+<img style="float: right;" src="../assets/compare-and-pull.png" alt="create a pull request" />
 
-<img style="float: right;" src="assets/submit-pull.png" alt="submit pull request" />
+अब पुल अनुरोध सबमिट करें।
 
-Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
+<img style="float: right;" src="../assets/submit-pull.png" alt="submit pull request" />
 
-### [ Additional material ](additional-material/additional-material.md)
+## अपने कांटा इस भंडार के साथ समन्वयित रखते हुए
 
-## Tutorials Using Other Tools
+अब मैं इस परियोजना के मास्टर शाखा में अपने सभी परिवर्तन विलय हो जाएगा। अपने कांटा उन परिवर्तनों की जरूरत नहीं होगी। आदेश में अपने कांटा खान के साथ समन्वयित रखने के लिए, `upstream remote url` के रूप में मेरे रेपो के यूआरएल जोड़ें।
 
+```
+git remote add upstream https://github.com/multunus/first-contributions
+```
+
+यह git को इस परियोजना के दूसरे संस्करण निर्दिष्ट यूआरएल में मौजूद बताने का एक तरीका है और हम इसे मास्टर बुला रहे हैं। एक बार परिवर्तन विलय कर रहे हैं, मेरे रिपॉजिटरी के नए संस्करण लाने।
+
+```
+git fetch upstream
+```
+
+यहाँ हम अपने कांटा (अपस्ट्रीम दूरदराज) में सभी परिवर्तन ला रहे हैं। अब, आप अपने गुरु शाखा में अपने भंडार के नए संशोधन विलय करने की जरूरत है।
+
+```
+git rebase upstream/master
+```
+
+यहाँ आप सभी परिवर्तनों को आप गुरु शाखा को दिलवाया आवेदन कर रहे हैं। तुम अब मास्टर शाखा धक्का, अपने कांटा भी परिवर्तन होगा
+
+```
+git push origin master
+```
+
+यहां सूचना आप दूरदराज के नाम पर रखा मूल करने के लिए जोर दे रहे हैं।
+
+
+## अन्य टूल का उपयोग करके ट्यूटोरियल
 
 |<a href="github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a>|<a href="github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://www.microsoft.com/net/images/vslogo.png" width="100"></a>|<a href="gitkraken-tutorial.md"><img alt="GitKraken" src="/assets/gk-icon.png" width="100"></a>|
 |---|---|---|
-|[GitHub Desktop](github-desktop-tutorial.md)|[Visual Studio 2017](github-windows-vs2017-tutorial.md)|[GitKraken](gitkraken-tutorial.md)|
+|[GitHub Desktop](../github-desktop-tutorial.md)|[Visual Studio 2017](../github-windows-vs2017-tutorial.md)|[GitKraken](../gitkraken-tutorial.md)|
 
-## Where to go from here?
 
-You could also join our slack team in case you need any help or have any questions. [Join slack team](https://firstcontributions.herokuapp.com)
 
-Here's some beginner level issues in popular repos that you can solve. Go ahead and go to those repos to learn more
+## यहाँ से कहाँ जाएं ?
+
+यहाँ लोकप्रिय रेपो कि आप को हल कर सकते हैं में कुछ शुरुआत के स्तर के मुद्दों है। आगे बढ़ो और अधिक जानने के लिए उन रेपो करने के लिए जाना
 
 |[![exercism](https://avatars2.githubusercontent.com/u/5624255?v=3&s=100)](https://github.com/exercism/exercism.io/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+patch%22)|[![fun-retro](https://avatars3.githubusercontent.com/u/15913975?v=3&s=100)](https://github.com/funretro/distributed/issues?q=is%3Aopen+is%3Aissue+label%3Abeginner-friendly)|[<img width="100" src="https://cdn.worldvectorlogo.com/logos/react.svg">](https://github.com/facebook/react/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+bug%22)|[![habitat](https://avatars1.githubusercontent.com/u/18171698?v=3&s=100)](https://github.com/habitat-sh/habitat/issues?q=is%3Aopen+is%3Aissue+label%3AEasy)|[![scikit-learn](https://avatars0.githubusercontent.com/u/365630?v=3&s=100)](https://github.com/scikit-learn/scikit-learn/issues?q=is%3Aopen+is%3Aissue+label%3AEasy)|[<img width="100" src="https://camo.githubusercontent.com/0f302c808c8457f6460913e33aed3478124612c2/687474703a2f2f6c65696e696e67656e2e6f72672f696d672f6c65696e696e67656e2e6a7067">](https://github.com/technomancy/leiningen/issues?q=is%3Aopen+is%3Aissue+label%3ANewbie)|[<img width="100" src="https://images.plot.ly/plotly-documentation/thumbnail/numpy-logo.jpg">](https://github.com/numpy/numpy/issues?q=is%3Aopen+is%3Aissue+label%3A%22Easy+Fix%22)|[![elasticsearch](https://avatars2.githubusercontent.com/u/6764390?v=3&s=100)](https://github.com/elastic/elasticsearch/issues?q=is%3Aopen+is%3Aissue+label%3A%22low+hanging+fruit%22)|
 |---|---|---|---|---|---|---|---|

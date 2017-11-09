@@ -3,84 +3,93 @@
 
 # First Contributions
 
+|<img alt="GitKraken" src="/assets/gk-icon.png" width="200">|GitKraken Edition|
+|---|---|
+
 It's hard. It's always hard the first time you do something. Especially when you are collaborating, making mistakes isn't a comfortable thing. But open source is all about collaboration & working together. We wanted to simplify the way new open-source contributors learn & contribute for the first time.
 
-Reading articles & watching tutorials can help, but what's better than actually doing the stuff without messing up anything? This project aims at providing guidance & simplifying the way rookies make their first contribution. Remember: the more relaxed you are, the better you learn. If you are looking to make your first contribution, just follow the simple steps below. We promise you, it will be fun.
+Reading articles & watching tutorials can help, but what comes better than actually doing the stuff without messing up anything. This project aims at providing guidance & simplifying the way rookies make their first contribution. Remember the more relaxed you are the better you learn. If you are looking for making your first contribution just follow the simple steps below. We promise you, it will be fun.
 
-<img align="right" width="300" src="assets/fork.png" alt="fork this repository" />
 
-*Read this in other languages: [Myanmar Unicode](translations/README.mm_unicode.md),  [Indonesian](translations/README.id.md), [French](translations/README.fr.md), [Spanish](translations/README.es.md), [Dutch](translations/README.nl.md), [Hindi](translations/README.hi.md), [Russian](translations/README.ru.md), [Japanese](translations/README.ja.md), [Vietnamese](translations/README.vn.md), [Polish](translations/README.pl.md), [Korean](translations/README.ko.md), [German](translations/README.de.md), [Simplified Chinese](translations/README.chs.md), [Traditional Chinese](translations/README.cht.md), [Greek](translations/README.gr.md), [العربية](translations/README.ar.md), [Ukrainian](translations/README.ua.md), [Português/Brasil](translations/README.pt_br.md), [Italian](translations/README.it.md), [ภาษาไทย](translations/README.th.md) and [Galician](translations/README.gl.md).*
+## Git Kraken
 
-If you don't have git on your machine, [ install it ]( https://help.github.com/articles/set-up-git/ ).
+Download [GitKraken](https://www.gitkraken.com), install and open it.
+
+
+You should see the "Welcome to GitKraken" modal dialog - Sign in with GitHub and allow GitKraken access to your GitHub account.
+
+
+<img style="float: right;" src="assets/gk-login.png" alt="login to GitHub" />
+
+(optional) Go to File->Preferences and set your project directory to the root of your local repositories.
+
 
 ## Fork this repository
 
 Fork this repo by clicking on the fork button on the top of this page.
-This will create a copy of this repository in your account.
+<img align="right" width="300" src="assets/fork.png" alt="fork this repository" />
+This will create of copy of this repository in your account.
+
 
 ## Clone the repository
 
-<img align="right" width="300" src="assets/clone.png" alt="clone this repository" />
+In GitKraken, go to File->Clone Repo.
 
-Now clone this repo to your machine. Click on the clone button and then click the *copy to clipboard* icon.
 
-Open a terminal and run the following git command:
+<img style="float: right;" src="assets/gk-clone.png" alt="clone this repository" />
 
-```
-git clone "url you just copied"
-```
-where "url you just copied" (without the quote marks) is the url to this repository. See the previous steps to obtain the url.
 
-<img align="right" width="300" src="assets/copy-to-clipboard.png" alt="copy URL to clipboard" />
+Select GitHub.com in the right pane.  Under your username, you should see first-contributions.  Click that repository and check the full path shown at the bottom of this pane.  
 
-For example:
-```
-git clone https://github.com/this-is-you/first-contributions.git
-```
-where `this-is-you` is your GitHub username. Here you're copying the contents of the first-contributions repository in GitHub to your computer.
+Once you're satisfied with the path, click "Clone the repo!".
+
 
 ## Create a branch
 
-Change to the repository directory on your computer (if you are not already there):
+Click the branch button on the toolbar.
 
-```
-cd first-contributions
-```
-Now create a branch using the `git checkout` command:
-```
-git checkout -b <add-your-name>
-```
+Name your branch add-your-name, for example: "add-william-sutton"
 
-For example:
-```
-git checkout -b add-alonzo-church
-```
-(The name of the branch does not need to have the word *add* in it, but it's a reasonable thing to include because the purpose of this branch is to add your name to a list.)
+<img style="float: right;" src="assets/gk-branch.png" alt="name your branch" />
+
 
 ## Make necessary changes and commit those changes
 
-Now open `Contributors.md` file in a text editor, add your name to it, and then save the file. If you go to the project directory and execute the command `git status`, you'll see there are changes. Add those changes to the branch you just created using the `git add` command:
-```
-git add Contributors.md
-```
+Now open `Contributors.md` file in a text editor and add your name to it, then save the file. 
 
-Now commit those changes using the `git commit` command:
-```
-git commit -m "Add <your-name> to Contributors list"
-```
-replacing `<your-name>` with your name.
+If you have the repo open in GitKraken you'll see there are changes. Review and stage those changes by selecting the newest commit marked with "// WIP" and the number of files changed and the type of change.
+
+<img style="float: right;" src="assets/gk-edit.png" alt="edit some file(s)" />
+
+Review the files that have been changed and decide what you would like to stage.  Staging is important to tell git exactly what file changes you want associated with this commit.
+
+
+<img style="float: right;" src="assets/gk-stage.png" alt="stage your changes" />
+
+
+Once you have a good commit message ("Add <your-name> to Contributors list" sounds nice and descriptive) and are happy with your changes, you can hit "Stage all changes" to stage everything that's modified or "Stage File" to stage an individual file.
+
+
+<img style="float: right;" src="assets/gk-commit.png" alt="clone this repository" />
+
+
+If you change your mind, you can unstage those changes, or you can discard them all together.  WARNING: As the word discard implies, this is a destructive operation.  Only do this if you don't want any change from whatever repository you're in.
+
+Hit commit.
+
+Congratulations, you've commited changes to your local copy of your branch of your fork of first-contributions.  Onward!
+
 
 ## Push changes to GitHub
 
-Push your changes using the command `git push`:
-```
-git push origin <add-your-name>
-```
-replacing `<add-your-name>` with the name of the branch you created earlier.
+<img style="float: right;" src="assets/gk-push.png" alt="push your changes" />
+
+Click the Push button on the toolbar.
+
 
 ## Submit your changes for review
 
-If you go to your repository on GitHub, you'll see a  `Compare & pull request` button.  Click on that button.
+If you go to your repository on github, you'll see  `Compare & pull request` button. click on that button.
 
 <img style="float: right;" src="assets/compare-and-pull.png" alt="create a pull request" />
 
@@ -88,20 +97,71 @@ Now submit the pull request.
 
 <img style="float: right;" src="assets/submit-pull.png" alt="submit pull request" />
 
-Soon I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
+Now I'll be merging all your changes into the master branch of this project. You will get a notification email once the changes have been merged.
 
-### [ Additional material ](additional-material/additional-material.md)
+Master branch of your fork won't have those changes. In order to keep your fork synced with mine, follow the steps below.
+
+## Keeping your fork synced with this repository
+
+ First, switch to master branch.
+ 
+<img style="float: right;" src="assets/gk-checkoutsuccessful.png" alt="checkout success" />
+
+ Double click on master on the left under origin.
+ 
+
+ Then, add my repo's url as `upstream remote url`.
+ 
+ 
+ 
+<img style="float: right;" src="assets/gk-clickaddremote.png" alt="click add remote" />
+
+ Click on the '+' that reveals itself after you hover Remote on the left.
+ 
+ 
+ 
+ 
+<img style="float: right;" src="assets/gk-addremote.png" alt="add remote dialog" />
+ Select Roshanjossey/first-contributions and name the remote upstream.
+ 
+ Click Add Remote.
+
+ 
+ This is a way of telling git that another version of this project exists in the specified url and we're calling it upstream. Once the changes are merged, fetch the new version of my repository.
+
+ 
+ Double click the master branch under upstream on the left.
+
+ 
+<img style="float: right;" src="assets/gk-checkoutsuccessful.png" alt="checkout success" />
+ 
+
+ 
+ 
+Here we're fetching all the changes in my fork (upstream remote). Now, you need to merge the new revision of my repository into your master branch.
+
+Drag your master branch (marked by your profile picture) on top of the upstream's master.
+
+<img style="float: right;" src="assets/gk-rebase.png" alt="rebasing to master" />
+
+Here you're applying all the changes you fetched to master branch. If you push master branch now, your fork will also have the changes
+
+Click push again, and this time make sure to select origin/master at the top
+
+Notice here you're pushing to the remote named origin.
+
 
 ## Tutorials Using Other Tools
 
-
-|<a href="github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a>|<a href="github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://www.microsoft.com/net/images/vslogo.png" width="100"></a>|<a href="gitkraken-tutorial.md"><img alt="GitKraken" src="/assets/gk-icon.png" width="100"></a>|
+|<a href="README.md"><img alt="Command Line" src="http://cdn.osxdaily.com/wp-content/uploads/2014/08/terminal-icon-osx-150x150.png" width="100"></a>
+|<a href="github-windows-vs2017-tutorial.md"><img alt="Visual Studio 2017" src="https://www.microsoft.com/net/images/vslogo.png" width="100"></a>
+|<a href="github-desktop-tutorial.md"><img alt="GitHub Desktop" src="https://desktop.github.com/images/desktop-icon.svg" width="100"></a>
+|
 |---|---|---|
-|[GitHub Desktop](github-desktop-tutorial.md)|[Visual Studio 2017](github-windows-vs2017-tutorial.md)|[GitKraken](gitkraken-tutorial.md)|
+|[Command Line](README.md)|[Visual Studio 2017](github-windows-vs2017-tutorial.md)|[GitHub Desktop](github-desktop-tutorial.md)|
+
 
 ## Where to go from here?
-
-You could also join our slack team in case you need any help or have any questions. [Join slack team](https://firstcontributions.herokuapp.com)
 
 Here's some beginner level issues in popular repos that you can solve. Go ahead and go to those repos to learn more
 
